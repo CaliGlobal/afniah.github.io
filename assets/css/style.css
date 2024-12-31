@@ -30357,62 +30357,6 @@ html:hover .cursor {
   padding: 35px 200px 25px;
 }
 
-.navbar {
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-}
-.navbar .navbar-toggler {
-  margin-left: auto;
-}
-
-.navbar-nav {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-.navbar-nav .nav-item {
-  position: relative;
-}
-.navbar-nav .nav-item .nav-link {
-  font-size: 18px;
-  letter-spacing: 1px;
-  padding: 12px 20px;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-  position: relative;
-}
-.navbar-nav .nav-item .nav-link:hover, .navbar-nav .nav-item .nav-link:active, .navbar-nav .nav-item .nav-link.active {
-  opacity: 1;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-.navbar-nav .nav-item .nav-link:hover::before, .navbar-nav .nav-item .nav-link:active::before, .navbar-nav .nav-item .nav-link.active::before {
-  content: "";
-  position: absolute;
-  height: 3px;
-  top: 35px;
-  width: 15px;
-  color: #006666;
-  background-color: #006666;
-}
-
-.landing-page .navbar-expand-xl .navbar-collapse {
-  background-color: transparent;
-}
-.landing-page .page-body-wrapper {
-  min-height: 100vh;
-  background: #eaf4ff;
-  overflow: hidden;
-}
-.landing-page .buy-btn {
-  font-size: 16px;
-  background: -webkit-gradient(linear, left top, right top, color-stop(-18.33%, #006666), color-stop(62.78%, #006666));
-  background: linear-gradient(90deg, #006666 -18.33%, #006666 62.78%);
-  border-radius: 7px;
-  padding: 11px 39px;
-  margin-left: 10px;
-}
 @media (max-width: 991px) {
   .landing-page .buy-btn {
     padding: 12px 35px;
@@ -43060,26 +43004,9 @@ table.table-bordered thead tr th p {
   z-index: 1;
 }
 
-.page-wrapper {
-  position: relative;
-}
-.page-wrapper .page-header {
-  max-width: 100vw;
-  position: fixed;
-  top: 0;
-  z-index: 8;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-.page-wrapper .page-header .header-wrapper {
-  width: 100%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 13px 30px;
-  position: relative;
-  background-color: #F5F5F5;
-}
+
+
+
 @media (max-width: 1399px) {
   .page-wrapper .page-header .header-wrapper {
     padding: 14px 20px;
